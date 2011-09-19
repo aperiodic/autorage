@@ -1,22 +1,22 @@
 {
-  "name": "Mustachio",
+  "name": "AutoRage",
   "version": "0.0.7",
-  "description": "Appends moustaches to all faces!",
+  "description": "Replaces faces with ragefaces!",
   "permissions": [
     "http://*/*"
   ],
   "background_page": "background.html",
   "browser_action": {
-      "default_icon": "Mustachio19enabled.png",
-      "default_title": "Enable / Disable Mustachio"
+      "default_icon": "AutoRage19enabled.png",
+      "default_title": "Enable / Disable AutoRage"
     },
-  "icons": { "16": "Mustachio16.png",
-             "48": "Mustachio48.png",
-            "128": "Mustachio128.png" },
+  "icons": { "16": "AutoRage16.png",
+             "48": "AutoRage48.png",
+            "128": "AutoRage128.png" },
   "content_scripts": [
       {
         "matches": ["http://*/*"],
-        "js": ["jquery.min.js", "mustachio.js"]
+        "js": ["jquery.min.js", "autorage.js"]
       }
     ]
 }

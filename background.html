@@ -3,10 +3,10 @@
   chrome.browserAction.onClicked.addListener(function(tab) {    
     if (localStorage['enabled'] == 'true') {
       localStorage['enabled'] = 'false';
-      chrome.browserAction.setIcon({path: 'Mustachio19disabled.png'});
+      chrome.browserAction.setIcon({path: 'AutoRage19disabled.png'});
     } else {
       localStorage['enabled'] = 'true'
-      chrome.browserAction.setIcon({path: 'Mustachio19enabled.png'});
+      chrome.browserAction.setIcon({path: 'AutoRage19enabled.png'});
     }
     console.log("toggled to " + localStorage['enabled']);
   });
